@@ -6,8 +6,7 @@ A modern YouTube video downloader with a Duolingo-inspired interface.
 - **Quality Selection**: Choose from 1080p, 720p, 480p, or HD
 - **Format Options**: Download as MP4, MP3, WebM, AVI, or MKV
 - **Automatic Conversion**: Converts videos to your desired format using FFmpeg
-- **Modern UI**: Clean, Duolingo-inspired design with rounded buttons and smooth animations
-- **Progress Tracking**: Real-time download progress bar
+- **Better UI**: Duolingo inspired UI
 
 ## Installation
 
