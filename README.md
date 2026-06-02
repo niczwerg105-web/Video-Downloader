@@ -1,11 +1,10 @@
-# 🎬 Video Downloader
+# Video Downloader
 
-A modern YouTube video downloader with a Duolingo-inspired interface. Download videos in MP4 or extract audio in MP3 with your preferred quality.
-
+A modern YouTube video downloader with a Duolingo-inspired interface.
 ## Features
 
-- **Quality Selection**: Choose from 1080p, 720p, 480p, 360p, or Best Available
-- **Format Options**: Download as MP4 (video) or MP3 (audio)
+- **Quality Selection**: Choose from 1080p, 720p, 480p, or HD
+- **Format Options**: Download as MP4, MP3, WebM, AVI, or MKV
 - **Automatic Conversion**: Converts videos to your desired format using FFmpeg
 - **Modern UI**: Clean, Duolingo-inspired design with rounded buttons and smooth animations
 - **Progress Tracking**: Real-time download progress bar
@@ -73,7 +72,7 @@ sudo apt install ffmpeg
 
 2. Paste a YouTube URL in the input field
 
-3. Select your preferred format (MP4 or MP3)
+3. Select your preferred format
 
 4. Choose the quality you want
 
@@ -94,25 +93,11 @@ sudo apt install ffmpeg
 - Restart your terminal/command prompt after installing FFmpeg
 - Run `ffmpeg -version` to verify installation
 
-**"Sign in to confirm you're not a bot" error:**
-- YouTube requires authentication for some videos
-- Export cookies from your browser and use the "Cookie File" field in the app
-- To export cookies:
-  1. Install the "Get cookies.txt" extension for your browser (Chrome/Firefox/Edge)
-  2. Go to YouTube and log in
-  3. Click the extension and export cookies as "cookies.txt"
-  4. In the app, click "Browse" and select the cookies.txt file
-  5. Try downloading again
-
 **Download fails:**
 - Check that the YouTube URL is valid
 - Some videos may be region-locked or age-restricted
 - Ensure you have a stable internet connection
 - Try using a cookie file if you're getting authentication errors
-
-**Quality not available:**
-- YouTube may not have the specific quality you selected
-- Try "Best Available" to get the highest quality possible
 
 ## License
 
